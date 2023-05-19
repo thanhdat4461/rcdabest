@@ -662,7 +662,7 @@ KA = Value
 
 Section4:AddSlider({
 	Name = "Slap Aura Radius",
-	Min = 0,
+	Min = 20,
 	Max = 30,
 	Default = 20,
 	Color = Color3.fromRGB(255,255,255),
@@ -780,7 +780,6 @@ Section4:AddToggle({
                       
    function BooleanTing()
         
-fireclickdetector(game:GetService("Workspace").Lobby.Baller.ClickDetector)
 game.Players.LocalPlayer.Character.Head.Position = Vector3.new(-563.724, 329.832, 3.99025)
 wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Spot.CFrame * CFrame.new(0,50,0)
